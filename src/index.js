@@ -22,8 +22,8 @@ function calPrice(mile, time) {
 function getResult(testDataFile) {
   const receiptArr = testDataFile.toString().split('\n');
   let result = '';
-  receiptArr.forEach(data => {
-    const mileAndTime = getkilometre(data.split(','));
+  receiptArr.forEach(item => {
+    const mileAndTime = getkilometre(item.split(','));
     result += `收费${calPrice(mileAndTime[0], mileAndTime[1]).toFixed(0)}元\n`;
   });
   return result;
