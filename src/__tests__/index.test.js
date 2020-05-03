@@ -1,5 +1,5 @@
 import main from '../index';
 
 test('should ', () => {
-  expect(main()).toBe('ﾊﾕｷﾑ6ﾔｪ\nﾊﾕｷﾑ7ﾔｪ\nﾊﾕｷﾑ13ﾔｪ\nﾊﾕｷﾑ7ﾔｪ\n');
+  expect(main()).toBe('謾ｶ雍ｹ6蜈ソn謾ｶ雍ｹ7蜈ソn謾ｶ雍ｹ13蜈ソn謾ｶ雍ｹ7蜈ソn');
 });
